@@ -16,24 +16,29 @@
     margin-bottom: 30px;
     margin-top: 30px;
     color: #212121;
-    font-family: serif;
+    font-family: Raleway;
     font-size: 36px;
     font-weight: 400;
     font-style: normal;
 }
 
 
-.awesome-line {
+.awesome-title::after {
+    content: " ";
+    display: block;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ff8d2d;
     width: 64px;
-    border-bottom: solid;
-    color :#ff8d2d;
     
 }
 .awesome-text {
     text-align: center;
-    font-family: "Open Sans";
-    font-size: 14px;
+    color: #86878b;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
     margin-top: 30px;
     margin-bottom: 80px;
 }
@@ -47,6 +52,10 @@
 }
 
 .item p{
+    color: #86878b;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
 
     text-align: center;
     font-size: 14px;
@@ -61,6 +70,10 @@
     
 }
 .item-title {
+    color: #333333;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 700;
 
     margin-top: 29px;
     margin-bottom: 25px;
@@ -91,11 +104,14 @@ font-style: normal;
 
 }
 
-.pricing-content__underline {
-margin: 0 auto;
-width: 64px;
-border-bottom: solid;
-color :#ff8d2d;
+.pricing-content__title::after {
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ff8d2d;
+    width: 64px;
 
 }
 
@@ -128,7 +144,11 @@ margin-bottom: 80px;
 
 }
 
-.list-pricing-item__column p {
+
+
+.option-list{
+
+    line-height: 40px;
     font-family: "Open Sans";
     border-bottom: 1px solid#f5f5f5;
     background-color: #ffffff;
@@ -136,9 +156,7 @@ margin-bottom: 80px;
     font-weight: 400;
     color: #86878b;
     text-align: center;
-    line-height: 24px;
-    
-    
+
 }
 
 
@@ -206,11 +224,17 @@ text-align: center;
     font-weight: 400;
 }
 
-.stylish-underline{
+.stylish-title::after{
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-bottom: 2px solid #ffffff;
     width: 64px;
-    margin: 30px auto;
 }
+
+
 .stylish-text p {
     text-align: center;
     color: #ffffff;
@@ -230,13 +254,27 @@ text-align: center;
 
 }
 
-.stylish-button span {
+.stylish-button:hover{
+ 
+    text-transform: uppercase;
+    background-color: #0c0c0c;
+    cursor: pointer;
+    
+    
+    transition: .5s;
+  
+
+}
+
+.button-text {
  
 color: #ffffff;
 font-family: "Open Sans - Semibold";
 font-size: 15px;
 font-weight: 400;
 }
+
+
 
 
 .social {
@@ -256,7 +294,16 @@ font-weight: 400;
    
 }
 
-.social-list li {
+.social-icon:hover{
+    width: 28px;
+    content: url(/img/twithover.png);
+    transition: 0.2;
+    cursor: pointer;
+    margin-bottom: -4px;
+
+}
+
+.social-icon {
     width: 24px;
     
 }
@@ -269,9 +316,120 @@ font-weight: 400;
     font-size: 12px;
     font-weight: 400;
     opacity: 0.5;
+    
+
+}
+
+.customers {
+    width: 100%;
+}
+
+.customers-title{
+padding-top: 108px;
+text-align: center;
+text-transform: uppercase;
+color: #212121;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+
+.customers-title::after{
+content: " ";
+display: block;
+margin: 0 auto;
+margin-top: 30px;
+margin-bottom: 30px;
+border-bottom: 2px solid #ff8d2d;
+width: 64px;
+}
+
+
+.customers-text {
+    
+    color: #86878b;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+    text-align: center;
+    margin-bottom: 55px;
+    
+    
+    
+}
+
+.customers-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    max-width: 1057px;
+    margin: 0 auto;
+    
+    
+}
+
+.customers-card__item{
+
+    width: 100%;
+    max-width: 273px;
+    
+    position: relative;
+    padding-bottom: 100px;
+
+
 }
 
 
 
+.customers-card__text{
+    background-color: #f5f5f5;
+    line-height: normal;
+    padding: 22px 12px;
+    margin-bottom: 22px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
 
+.customers-card__text::after{
+    content: "";
+    position: absolute;
+    border: 20px solid transparent; border-top: 20px solid #f5f5f5;
+    top: 135px;
+    left: 11px;
+}
 
+.customers-card__icon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-customers{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    
+  
+    
+}
+
+.customers-name{
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.customers-postiion{
+    margin-top: 8px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+
+}
