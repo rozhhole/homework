@@ -1,6 +1,9 @@
 .body {
   width: 100%;
 }
+*{
+  box-sizing: border-box;
+}
 
 .wrap {
   min-height: 100vh;
