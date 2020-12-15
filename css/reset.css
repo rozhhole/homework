@@ -86,7 +86,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  vertical-align: top;
+  
   overflow: visible;
 }
 /* HTML5 display-role reset for older browsers */
@@ -130,4 +130,12 @@ table {
 }
 form *:focus {
   outline: none;
+}
+a{
+  text-decoration: none;
+}
+hr{
+  padding: 0;
+  margin: 0;
+
 }

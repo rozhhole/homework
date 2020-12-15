@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
@@ -11,6 +12,102 @@
     <title>Document</title>
 </head>
 <body>
+ <div class="wrap">   
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <img src="/img/logo.png" alt="mainlogo" class="mainlogo">
+                <nav class="nav">
+                    <a class="nav__inner" href="#">Features</a>
+                    <a class="nav__inner" href="#">About</a>
+                    <a class="nav__inner" href="#">Pricing</a>
+                    <a class="nav__inner" href="#">Reviews</a>
+                    <a class="nav__inner" href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="template">
+        <div class="container containerfull">
+            <div class="template-inner">
+                <div class="template-inner__item">
+                    <img src="/img/Logofull.png" alt="logofull" class="template-inner__logo">
+                    <h1 class="template-inner__axure">
+                        Modern axure template </br> for beautiful prototypes
+                    </h1>
+                    <p class="template-inner__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                    </p>
+                    <div class="template-inner__button"><span class="button-text">Download</span></div>
+                </div> 
+
+                 <div class="template-trial">
+                    <h3 class="template__trial-title">Try Your <span class="free">FREE</span> Trial Today</h3>
+                    <form action="#" method="GET" class="template-form">
+                        <div class="template-form__inner">
+                            <div class="template__inner-item">
+                                <input class="template__input" type="text" name="user_name" placeholder="Name">
+                            </div>
+                            <div class="template__inner-item">    
+                                <input class="template__input" type="email"  name="user_mail" placeholder="E-mail">
+                            </div>
+                            <div class="template__inner-item">
+                                <input class="template__input" type="password"  name="user_password"
+                                    placeholder="Password">
+                            </div>
+                        </div>
+                    </form>
+                    <a href="#" class="template__trial-link">Get Started</a>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+
+
+    <section class="socialmedia">
+        <div class="container">
+            <div class="socialmedia-inner">
+                <div class="socialmedia-item">
+                    <h3 class="socialmedia-item__title">Social Media</h3>
+                    <p class="socialmedia-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                    </p>
+                </div>
+                <div class="socialmedia-icon">
+                    <a class="socialmedia-icon__item" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="socialmedia-icon__item" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="socialmedia-icon__item" href="">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a class="socialmedia-icon__item" href="#">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                    <a class="socialmedia-icon__item" href="#">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                    <a class="socialmedia-icon__item" href="#">
+                        <i class="fab fa-stumbleupon"></i>
+                    </a>
+                    <a class="socialmedia-icon__item" href="#">
+                        <i class="fas fa-rss"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <hr>
+    </section> 
+
+
+    
+
     <section class="awesome">
         <div class="container">
                 <h2 class="awesome-title">WHY THIS IS AWESOME</h2>
@@ -45,6 +142,9 @@
 
         </div>
     </section>
+
+     
+
     <section class="pricing">
         <div class="container">
             <div class="pricing-content">
@@ -177,22 +277,57 @@
         </div>
     </section>
 
+    <section class="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="contact-title">CONTACT US</h2>
+                <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            </div>    
+            <div class="contact-form">
+                    <form class="contact-form__inner" action="#" method="get">
+                        <div class="contact-input__wrapper">
+                            <input class="contact-input" placeholder="Name" type="text" name="user-name" value="">
+                            <input class="contact-input" placeholder="E-mail" type="email" name="user-email" value="">
+                            <input class="contact-input" placeholder="Subject" type="text" name="user-subject" value="">
+                        </div>
+                        <div class="textarea-wrapper">
+                            <textarea cols="" rows="9" class="textarea-message" placeholder="Message" name="message" id=""></textarea>
+                        </div>   
+                    </form>     
+            </div>
+            <button class="contact-button" type="submit">Send message</button>    
+        </div>
+    </section>
+
   <footer class="social">
         <div class="container">
-            
             <ul class="social-list">
-                <li class=social-icon><img src="/img/twit.png" alt=""></li>
-                <li class=social-icon><img src="/img/twit.png" alt=""></li>
-                <li class=social-icon><img src="/img/twit.png" alt=""></li>
-                <li class=social-icon><img src="/img/twit.png" alt=""></li>
-                <li class=social-icon><img src="/img/twit.png" alt=""></li>
-                <li class=social-icon><img src="/img/twit.png" alt=""></li>
-                <li class=social-icon><img src="/img/twit.png" alt=""></li>
+                <li class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </li>
+                <li class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="social-icon">
+                    <i class="fab fa-google-plus-g"></i>
+                </li>
+                <li class="social-icon">
+                    <i class="fab fa-pinterest"></i>
+                </li>
+                <li class="social-icon">
+                    <i class="fab fa-instagram-square"></i>
+                </li>
+                <li class="social-icon">
+                    <i class="fab fa-stumbleupon"></i>
+                </li>
+                <li class="social-icon">
+                    <i class="fas fa-rss"></i>
+                </li>
             </ul>
 
             <p class=themes>© 2015 Axure Themes</p>
         </div>
     </footer>
-  
+</div> 
 </body>
 </html>
