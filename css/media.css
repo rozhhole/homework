@@ -1,0 +1,157 @@
+/* 
+@media (max-width: 1170px){
+    .container {
+      max-width: 970px;
+    }
+  }
+  
+  @media (max-width: 992px){
+    .container {
+      max-width: 750px;
+    }
+  }
+  
+  @media (max-width: 767px){
+    .container {
+      max-width: none;
+    }
+  } */
+
+/* template section */
+  @media(max-width: 668px){
+    .template-inner{
+    flex-direction: column;
+    text-align: center;
+   
+      /* align-items: center; */
+    }
+    .template-inner__axure::after{
+        margin: 0 auto;
+    }
+    .template-inner__button{
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+
+  }
+/* socialmedia-section */
+@media(max-width: 989px){
+    .socialmedia-icon__item{
+        font-size: calc(12px + (48 - 14) * ((100vw - 320px) / (1140 - 320)));
+    }
+}
+
+@media(max-width: 668px) {
+    .socialmedia-inner{
+        flex-direction: column;
+       
+    }
+    .socialmedia-item{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .socialmedia-icon{
+        margin: 0 auto
+    }
+
+
+}
+
+@media(max-width: 349px){
+    .socialmedia-icon__item{
+        padding-left: 15px;
+    }
+}
+
+
+/* awesome-card */
+@media(max-width: 668px){
+    .awesome-card{
+        margin-bottom: 0px;
+        flex-direction: column;
+        
+    }
+
+    .item{
+
+        margin-bottom: 100px;
+    }
+    .item-title{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+
+/* pricing option */
+@media(max-width: 668px){
+    .list-pricing-item{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .list-pricing-item__column{
+        margin-bottom: 100px;
+    }
+}
+
+/* customers */
+@media(max-width: 668px){
+    .customers-card{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .customers-card__item{
+        margin-bottom: 100px;
+    }
+}
+
+/* contact-form */
+@media(max-width: 668px){
+    .contact-form__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-input__wrapper{
+        margin-bottom: 100px;
+    }
+}
+
+
+/* footer */
+@media(max-width: 340px){
+    .social{
+        
+    }
+    .social-list{
+        justify-content: center;
+    }
+    .social-icon{
+        margin: 0 5px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 507px) {
+    .nav {
+      display: none;
+    }
+  }
+
+  
