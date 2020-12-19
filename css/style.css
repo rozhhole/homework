@@ -67,7 +67,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 30px 0;
+  /* padding: 30px 0; */
+
   display: flex;
 }
 
@@ -75,7 +76,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-
+  margin-bottom: 140px;
+  margin-top: 110px;
   align-items: center;
 }
 
@@ -234,6 +236,89 @@
   font-family: "Font Awesome";
   font-size: 48px;
   font-weight: 400;
+}
+
+/* tab______________________________ */
+.tab {
+  background-color: #f5f5f5;
+}
+
+.tab-body {
+  /* margin: 0 -20px; */
+  margin-top: 147px;
+  margin-bottom: 114px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-width {
+  margin: 0 20px;
+}
+.tab-column {
+  display: flex;
+  flex-direction: column;
+}
+.tab-column__item {
+  background-color: #333333;
+  width: 112px;
+  height: 112px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+}
+.tab-column__text {
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 56px;
+}
+.orange {
+  background-color: #ff8b38;
+}
+.tab-discription {
+  max-width: 476px;
+  /* width: 100%; */
+}
+.tab-discription__titile {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 52px;
+  line-height: 20px;
+}
+.tab-discription__text {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 21px;
+}
+.tab-discription__btn {
+  width: 121px;
+  height: 46px;
+  background-color: #ff8b38;
+  color: #fff;
+  text-align: center;
+  padding-top: 14px;
+  margin-top: 50px;
+}
+.tab-discription__btn a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Open Sans - Semibold";
+  font-size: 15px;
+  font-weight: 400;
+}
+.cityimage img {
+  /* max-width: 320px; */
+  /* width: 100%; */
 }
 /* awesome-cards_________________________________ */
 
@@ -714,7 +799,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  
+
   max-width: 317px;
 }
 
@@ -726,7 +811,7 @@
 .social-icon {
   color: #cccccc;
   font-family: "Font Awesome";
-  
+
   font-size: 24px;
   font-weight: 400;
 }
