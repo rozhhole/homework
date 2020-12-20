@@ -29,11 +29,18 @@
 .header {
   width: 100%;
   background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 .header-inner {
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  height: 80px;
 }
 
 .mainlogo {
